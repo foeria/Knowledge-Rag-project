@@ -1,0 +1,20 @@
+{
+  "knowledgeBases": [
+    {
+      "id": "78279121-79c1-4f60-a3b1-f59b63f7ba99",
+      "name": "emm",
+      "description": "",
+      "createdAt": "2025-12-06T04:36:40.876Z"
+    }
+  ],
+  "files": [
+    {
+      "id": "fabd67b5-7070-4f7a-920a-a3e878b1a12b",
+      "kbId": "78279121-79c1-4f60-a3b1-f59b63f7ba99",
+      "filename": "其他.txt",
+      "path": "C:\\Users\\86198\\Desktop\\Knowledge-Rag-project\\Knowledge-rag-server\\uploads\\1764997667298-其他.txt",
+      "type": "text",
+      "uploadedAt": "2025-12-06T05:07:47.303Z"
+    }
+  ]
+}

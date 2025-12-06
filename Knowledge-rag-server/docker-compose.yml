@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  chroma:
+    image: chromadb/chroma:0.4.24
+    container_name: knowledge-rag-chroma
+    volumes:
+      - ./chroma_data:/chroma/chroma
+    ports:
+      - "8000:8000"
+    environment:
+      - IS_PERSISTENT=TRUE
+      - ANONYMIZED_TELEMETRY=FALSE
+    networks:
+      - rag-net
+
+networks:
+  rag-net:
+    driver: bridge
